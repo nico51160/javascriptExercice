@@ -1,0 +1,20 @@
+#box {
+    width: 450px;
+    margin: auto;
+    border: 1px solid #0a0;
+    border-radius: 20px;
+    text-align: center;
+    font-family: arial;
+    font-size: 17px;
+    padding: 15px;
+}
+
+span {
+    cursor: pointer;
+    
+}
+
+span:hover {
+    color: blue;
+    text-decoration: underline;
+}
