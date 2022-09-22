@@ -1,0 +1,38 @@
+body {
+    font-family: arial, serif;
+    font-size: 16px;
+    background-color: #ccc;
+}
+
+.question {
+    background-color: #d6d6d6;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-left-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 25px;
+}
+
+.question:hover, .active {
+    background-color: rgb(236, 178, 16);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.reponse {
+    border-color: #f3f3f3;
+    padding: 10px;
+    font-size: 15px;
+    display: none;
+}
+
+.afficheReponse {
+    display: block;
+}
+
+#box {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}

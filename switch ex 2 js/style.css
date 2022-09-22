@@ -1,0 +1,12 @@
+#box {
+    width: 350px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 16px;
+    margin: auto;
+}
+
+

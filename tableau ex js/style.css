@@ -1,0 +1,33 @@
+body {
+    font-family: arial;
+    font-size: 19px;
+}
+
+table {
+    width: 350px;
+    border: 1px solid black;
+
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 9px;
+}
+
+td {
+    padding: 9px;
+}
+
+.ligne {
+    background-color: white;
+}
+
+.ligneOrange {
+    background-color: orange;
+}
+
+p {
+
+    cursor: pointer;
+}
