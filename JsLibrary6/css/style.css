@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8e44ad;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 400px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-bottom: 9px;
+    border-bottom: 2px dashed #ccc;
+}
+
+input, select {
+    display: block;
+    padding: 20px;
+    margin-top: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    text-transform: capitalize;
+}
+
+::placeholder {
+    margin-left: 8px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #bbb;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+option {
+    font-size: 1rem;
+    background-color: #bbb;
+}
