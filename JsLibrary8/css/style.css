@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Seymour+One&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ecf0f1;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #34495e;
+    margin: auto;
+    margin-bottom: 100px;
+    color: #ecf0f1;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    width: 500px;
+}
+div input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #95a5a6;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+div input::placeholder {
+    color: #ddd;
+    text-transform: capitalize;
+}
