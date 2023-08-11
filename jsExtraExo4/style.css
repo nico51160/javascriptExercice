@@ -82,6 +82,7 @@ section li:last-child::after {
 }
 section p {
     text-align: justify;
+    font-size: 14px;
 }
 section a {
     text-decoration: none;
@@ -95,8 +96,42 @@ section h1 {
     font-size: 30px;
     color: #aaa;
 }
+
+/*ASIDE*/
+
 aside {
     width: 25%;
+    text-align: center;
+}
+
+aside h4 {
+    text-align: left;
+    background-color: #000;
+    color: honeydew;
+    padding: 7px;
+    font-size: 17px;
+}
+aside button {
+    cursor: pointer;
+    padding: 3px 14px;
+    font-size: 18px;
+    margin: 7px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+aside button:hover {
+    background-color: #000;
+    color: #ccc;
+}
+aside div {
+    border-top: 2px solid #000;
+    margin-top: 15px;
+}
+aside #info {
+    text-align: left;
+    font-size: 14px;
+    color: #aaa;
 }
 
 /*FOOTER*/
