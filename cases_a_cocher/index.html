@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les cases à cocher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article>
+        <form action="traitement.html" method="post" id="formulaire">
+            <h3>Quelles sont vos pizzas préférées <span>(3 réponses max)</span>  </h3>
+            <div>
+                <section>
+                    <p>
+                        <input type="checkbox" name="pizza" value="reine">reine
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pizza" value="Calzone">Calzone
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pizza" value="royale">royale
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pizza" value="savoyarde">savoyarde
+                    </p>
+                </section>
+                <section>
+                    <p>
+                        <input type="checkbox" name="pizza" value="napolitaine">napolitaine
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pizza" value="regina">regina
+                    <p>
+                        <input type="checkbox" name="pizza" value="vegetariene">vegetariene
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pizza" value="margarita">margarita
+                    </p>
+                </section>
+            </div>
+            <p id="message"></p>
+            <button>Valider</button>
+            <p id="info">Vous pouvez choisir jusqu'à 3 pizzas</p>
+        </form>
+    </article>
+    <script src="script.js"></script>
+</body>
+</html>
